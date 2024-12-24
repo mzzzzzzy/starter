@@ -8,16 +8,10 @@
 
 1. Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
 
-### Install
+# Install
 
-- Install
-
-  ```
-  git clone git@github.com:mzzzzzzy/NvChad.git ~/.config/nvim --depth 1 -b v2.5
-  ```
-
-- Run
+- Install & Run
 
   ```
-  nvim
+  git clone git@github.com:mzzzzzzy/starter.git ~/.config/nvim && nvim
   ```
