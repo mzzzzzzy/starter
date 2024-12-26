@@ -90,7 +90,7 @@ M.nvimtree = {
     enable = true,
   },
   view = {
-    width = "35%",
+    width = "20%",
   },
 
   renderer = {

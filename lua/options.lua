@@ -7,7 +7,7 @@ local o = vim.o
 o.cursorlineopt = "both"
 
 -- 相对行号
-o.number = false
+o.number = true
 o.relativenumber = true
 
 -- 启用智能缩进
