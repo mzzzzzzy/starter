@@ -101,15 +101,15 @@ return {
       require "configs.indent-blankline"
     end,
   },
-  {
-    "folke/which-key.nvim",
-    enabled = true,
-    event = "VimEnter",
-    keys = {},
-    config = function()
-      require "configs.whichkey"
-    end,
-  },
+  -- {
+  --   "folke/which-key.nvim",
+  --   enabled = true,
+  --   event = "VimEnter",
+  --   keys = {},
+  --   config = function()
+  --     require "configs.whichkey"
+  --   end,
+  -- },
 
   {
     "echasnovski/mini.icons",

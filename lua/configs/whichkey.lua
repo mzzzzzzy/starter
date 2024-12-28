@@ -126,7 +126,7 @@ wk.add {
   { "<leader>lf", "<cmd>lua vim.lsp.buf.format() <cr>", desc = "Format" },
   { "<leader>ll", "<cmd>lua vim.lsp.codelens.run()<cr>", desc = "CodeLens Action" },
   { "<leader>lq", "<cmd>lua vim.lsp.diagnostic.set_loclist()<cr>", desc = "Quickfix" },
-  { "<leader>lr", "<cmd>lua require 'nvchad.renamer'.open()<cr>", desc = "Rename" },
+  { "<leader>lr", "<cmd>lua vim.lsp.buf.rename()<cr>", desc = "Rename" },
   { "<leader>ls", "<cmd> Telescope lsp_document_symbols symbol_width=0.9<cr>", desc = "Document Symbols" },
   { "<leader>lw", group = "Workspace" },
   { "<leader>lwa", "<cmd>lua vim.lsp.buf.add_workspace_folder()<cr>", desc = "Add Wrokspace Folder" },
